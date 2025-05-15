@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Futebol: A Paixão Nacional</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            background-color: #fafafa;
+        }
+
+        header {
+            background-color: #006400;
+            color: white;
+            text-align: center;
+            padding: 30px;
+        }
+
+        nav {
+            background-color: #228B22;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        section {
+            margin-bottom: 40px;
+        }
+
+        footer {
+            background-color: #006400;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        h2 {
+            color: #228B22;
+            margin-bottom: 20px;
+        }
+
+        ul {
+            margin-bottom: 20px;
+        }
+
+        ul li {
+            margin-bottom: 10px;
+        }
+
+        .galeria {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .galeria img {
+            width: 100%;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .galeria figcaption {
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        .texto-imagem {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .curiosidades ul {
+            list-style-type: square;
+        }
+
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Futebol: A Paixão Nacional</h1>
+    <p>Descubra a história e os ícones do futebol brasileiro!</p>
+</header>
+
+<nav>
+    <a href="#historia">História</a>
+    <a href="#times">Times Famosos</a>
+    <a href="#jogadores">Jogadores Lendários</a>
+    <a href="#estadios">Estádios Icônicos</a>
+    <a href="#curiosidades">Curiosidades</a>
+    <a href="#galeria">Galeria</a>
+</nav>
+
+<main>
+    <section id="historia">
+        <h2>História do Futebol no Brasil</h2>
+        <p>O futebol foi introduzido no Brasil no final do século XIX e, desde então, se tornou o esporte mais popular do país. A primeira partida oficial foi realizada no Rio de Janeiro em 1894. O Brasil conquistou 5 Copas do Mundo, sendo o país mais vitorioso na história do torneio.</p>
+    </section>
+
+    <section id="times">
+        <h2>Times Famosos do Futebol Brasileiro</h2>
+        <p>Conheça alguns dos times que fizeram história no futebol brasileiro:</p>
+        <ul>
+            <li><strong>Flamengo</strong> - Um dos maiores clubes do Brasil, com uma enorme torcida e múltiplos títulos nacionais e internacionais.</li>
+            <li><strong>São Paulo FC</strong> - Vencedor de 3 Copas do Mundo de Clubes, sendo um dos clubes mais vitoriosos do Brasil.</li>
+            <li><strong>Corinthians</strong> - Tradicional clube paulista com conquistas nacionais e internacionais, incluindo a Copa Libertadores de 2012.</li>
+            <li><strong>Palmeiras</strong> - Com vários títulos da Copa do Brasil e Libertadores, o Palmeiras é uma potência do futebol brasileiro.</li>
+            <li><strong>Grêmio</strong> - Conhecido pela sua força no futebol gaúcho e por sua grande atuação em competições internacionais, como a Copa Libertadores.</li>
+        </ul>
+    </section>
+
+    <section id="jogadores">
+        <h2>Jogadores Lendários</h2>
+        <p>Alguns dos maiores jogadores da história do futebol brasileiro:</p>
+        <ul>
+            <li><strong>Pelé</strong> - Considerado o Rei do Futebol, com 3 Copas do Mundo no currículo.</li>
+            <li><strong>Zico</strong> - Um dos maiores ídolos do Flamengo e da seleção brasileira.</li>
+            <li><strong>Romário</strong> - Famoso por sua habilidade e capacidade de marcar gols.</li>
+            <li><strong>Ronaldo Fenômeno</strong> - Bicampeão mundial e um dos maiores atacantes de todos os tempos.</li>
+            <li><strong>Neymar</strong> - Um dos jogadores mais habilidosos e influentes da atualidade.</li>
+        </ul>
+    </section>
+
+    <section id="estadios">
+        <h2>Estádios Icônicos</h2>
+        <p>Alguns dos estádios mais conhecidos no Brasil e no mundo:</p>
+        <ul>
+            <li><strong>Maracanã</strong> - Localizado no Rio de Janeiro, é um dos estádios mais famosos do mundo e palco de duas finais de Copa do Mundo.</li>
+            <li><strong>Mineirão</strong> - Estádio localizado em Belo Horizonte, casa do Cruzeiro e do Atlético-MG.</li>
+            <li><strong>Morumbi</strong> - Estádio do São Paulo FC, famoso por sua capacidade e atmosfera eletrizante.</li>
+            <li><strong>Arena Corinthians</strong> - Inaugurada em 2014, sede da Copa do Mundo no Brasil e palco de grandes jogos.</li>
+        </ul>
+    </section>
+
+    <section id="curiosidades" class="curiosidades">
+        <h2>Curiosidades sobre o Futebol Brasileiro</h2>
+        <ul>
+            <li>O Brasil é o único país a participar de todas as edições da Copa do Mundo.</li>
+            <li>Pelé é o único jogador a conquistar 3 Copas do Mundo (1958, 1962 e 1970).</li>
+            <li>O maior público em uma partida de futebol no Brasil foi de 199.854 pessoas no Maracanã, em 1950.</li>
+            <li>A Seleção Brasileira é a única equipe a vencer a Copa do Mundo em 5 ocasiões: 1958, 1962, 1970, 1994 e 2002.</li>
+        </ul>
+    </section>
+
+    <section id="galeria">
+        <h2>Galeria de Imagens</h2>
+        <div class="galeria">
+            <figure>
+                <img src="imagens/pele.jpg" alt="Pelé, o Rei do Futebol">
+                <figcaption>Pelé em ação</figcaption>
+            </figure>
+            <figure>
+                <img src="imagens/neymar.jpg" alt="Neymar com a bola">
+                <figcaption>Neymar Jr</figcaption>
+            </figure>
+            <figure>
+                <img src="imagens/maracana.jpg" alt="Estádio do Maracanã">
+                <figcaption>Maracanã, Rio de Janeiro</figcaption>
+            </figure>
+            <figure>
+                <img src="imagens/romario.jpg" alt="Romário comemorando um gol">
+                <figcaption>Romário - Gol histórico</figcaption>
+            </figure>
+        </div>
+    </section>
+
+</main>
+
+<footer>
+    <p>&copy; 2025 Futebol Brasil. Todos os direitos reservados.</p>
+</footer>
+
+</body>
+</html>
